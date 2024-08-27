@@ -21,8 +21,6 @@ jobs:
         max-score: 1
         setup-command: pip3 install -r requirements.txt
         command: python3 test.py
-        timeout: 10
-        max-score: 1
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
